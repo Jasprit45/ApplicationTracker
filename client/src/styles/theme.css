@@ -1,0 +1,28 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #080B12;
+  --bg-secondary: #0F1420;
+  --bg-card: #151C2B;
+
+  /* Text */
+  --text-primary: #F1F5F9;
+  --text-secondary: #A0AEC0;
+  --text-muted: #64748B;
+
+  /* Borders */
+  --border-subtle: #202A3A;
+  --border-default: #303B50;
+  --border-strong: #46536B;
+
+  /* Primary accent */
+  --accent: #8175FF;
+  --accent-hover: #968CFF;
+
+  /* Application statuses */
+  --status-applied: #60A5FA;
+  --status-interview: #A78BFA;
+  --status-offer: #4ADE80;
+  --status-rejected: #F87171;
+  --status-assessment: #FBBF24;
+  --status-withdrawn: #94A3B8;
+}
