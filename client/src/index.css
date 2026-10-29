@@ -1,2 +1,30 @@
 @import "tailwindcss";
 @import "./styles/theme.css";
+
+/* Dark, minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: 999px;
+}
+
+/* Slightly brighter on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-strong);
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-default) var(--bg-primary);
+}
